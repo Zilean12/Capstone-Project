@@ -1,3 +1,4 @@
+/* Default styles for larger screens */
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@ body {
 }
 
 /* Styling the input fields in the login box */
-.input-box .input-field {
+.input-field {
     width: 100%;
     height: 60px;
     font-size: 17px;
@@ -170,6 +171,7 @@ section a {
 .google.btn:active {
     transform: scale(0.95);
 }
+
 .input-submit {
     margin-top: 10px; /* Adjust as needed */
 }
@@ -200,17 +202,19 @@ section a {
 .submit-btn:active {
     transform: scale(0.95);
 }
+
 .sign-up-link {
     margin-top: 20px; /* Adjust as needed */
 }
 
-@media screen and (min-width: 768px) {
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
     .login-box {
-        width: 600px;
-        height: 600px;
+        width: 90%; /* Adjust width to fit smaller screens */
+        height: auto; /* Let height adjust dynamically */
     }
 
     .input-field {
-        width: 100%;
+        width: 100%; /* Ensure input fields take full width */
     }
 }
