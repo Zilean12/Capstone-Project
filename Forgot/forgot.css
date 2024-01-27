@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+}
+
+/* Styling for the overall body of the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Setting a minimum height to cover the viewport height */
+    background: #dfdfdf; /* Background color for the entire page */
+}
+
+/* Styling for a card-like container */
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 380px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+/* Styling for heading level 2 */
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333; /* Text color for heading */
+}
+
+/* Styling for paragraphs */
+p {
+    text-align: center;
+    color: #555; /* Text color for paragraphs */
+    margin-bottom: 20px; /* Bottom margin for paragraphs */
+}
+
+/* Styling for password input field */
+.passInput {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Border color for the input field */
+    border-radius: 5px;
+}
+
+/* Styling for buttons */
+button {
+    width: 100%;
+    height: 40px;
+    background: #222; /* Background color for buttons */
+    border: none;
+    color: #fff; /* Text color for buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s; /* Adding a smooth background color transition on hover */
+}
+
+/* Styling for button hover state */
+button:hover {
+    background: #000; /* Background color change on hover */
+}
+
+/* Styling for the "Back to Login" link */
+.back-to-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for the "Back to Login" link itself */
+.back-to-login a {
+    color: #007bff; /* Text color for the link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Styling for the "Back to Login" link hover state */
+.back-to-login a:hover {
+    text-decoration: underline; 
+}
