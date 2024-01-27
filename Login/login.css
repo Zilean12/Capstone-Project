@@ -203,3 +203,14 @@ section a {
 .sign-up-link {
     margin-top: 20px; /* Adjust as needed */
 }
+
+@media screen and (min-width: 768px) {
+    .login-box {
+        width: 600px;
+        height: 600px;
+    }
+
+    .input-field {
+        width: 100%;
+    }
+}
