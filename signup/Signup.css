@@ -31,17 +31,6 @@ body {
     position: relative;
 }
 
-/* Adding a decorative line under the title */
-.container .title::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
-}
-
 /* user details form section within the container */
 .container form .user-details {
     display: flex;
