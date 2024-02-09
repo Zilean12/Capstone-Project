@@ -23,7 +23,7 @@ body {
     justify-content: center;
     flex-direction: column;
     width: 500px;
-    height: 580px;
+    height: 680px;
     padding: 30px;
 }
 
@@ -207,14 +207,3 @@ section a {
     margin-top: 20px; /* Adjust as needed */
 }
 
-/* Media query for screens smaller than 768px */
-@media screen and (max-width: 767px) {
-    .login-box {
-        width: 90%; /* Adjust width to fit smaller screens */
-        height: auto; /* Let height adjust dynamically */
-    }
-
-    .input-field {
-        width: 100%; /* Ensure input fields take full width */
-    }
-}
