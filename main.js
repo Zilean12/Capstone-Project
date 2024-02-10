@@ -22,7 +22,7 @@ const firebaseConfig = {
     const credential = GoogleAuthProvider.credentialFromResult(result);
     const user = result.user;
     console.log(user);
-    window.location.href = 'Furnihub/test.html';
+    window.location.assign('./test.html');
 
 
   }).catch((error) => {
