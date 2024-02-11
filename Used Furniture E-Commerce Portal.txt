@@ -1,5 +1,0 @@
-Used Furniture E-Commerce Portal
-
-A used furniture e-commerce portal, designed for a startup that acquires secondhand furniture, refurbishes it, and sells it for a profit, serves as a platform to showcase currently available items.
-
-Users can register, create profiles, browse, and purchase desired goods, with a straightforward process leading to the payment page. Upon successful payment, users receive email notifications and can track the estimated arrival time on the order page. Additionally, users have the option to sell secondhand furniture to the company by submitting product images, allowing administrators to assess and decide on purchases based on the provided photos.
