@@ -32,6 +32,7 @@ Users have the option to sell secondhand furniture to the company by submitting 
 - CSS
 - JavaScript
 - Firebase
+- MERN
 - Netlify
 
 ## Getting Started
