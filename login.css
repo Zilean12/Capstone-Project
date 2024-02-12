@@ -21,9 +21,9 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 450px;
-    height: 580px;
-    padding: 20px;
+    width: 550px; /* Increase the width */
+    height: 700px; /* Increase the height */
+    padding: 30px; /* Increase the padding */
 }
 
 /* Styling the header in the login box */
@@ -31,6 +31,7 @@ body {
     text-align: center;
     margin: 20px 0 35px 0;
 }
+
 
 /* Styling the header text in the login box */
 .login-header header {
@@ -41,15 +42,15 @@ body {
 }
 
 .custom-field input {
-    width: 100%;
-    height: 60px;
-    font-size: 17px;
-    padding: 0 25px;
-    margin-bottom: 15px;
-    border-radius: 30px;
+    width: 80%; /* Decrease the width */
+    height: 50px; /* Decrease the height */
+    font-size: 16px; /* Adjust font size accordingly */
+    padding: 0 20px; /* Adjust padding accordingly */
+    margin-bottom: 10px; /* Adjust margin accordingly */
+    border-radius: 20px; /* Adjust border-radius accordingly */
     border: 1px solid #ddd;
     transition: .3s;
-    padding-left: 45px;
+    padding-left: 25px;
     margin-top: 2px;
 }
 
