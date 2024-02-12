@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>LoginX</title>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+    <script src="main.js" defer type="module"></script>
+</head>
+
+<body>
+    <form onsubmit="login()" id="loginForm">
+        <div class="login-box">
+            <div class="login-header">
+                <header>Login</header>
+            </div>
+            <div class="input-box">
+                <!-- Email Id field -->
+                <label class="custom-field">
+                    <span class="placeholder">Email Id</span>
+                    <input id="email" type="text" class="input" required />
+                </label>
+            </div>
+            <!-- Password field -->
+            <label class="custom-field">
+                <span class="placeholder">Password</span>
+                <input id="password" type="password" class="input" required />
+            </label>
+
+            <!-- Use type="button" to prevent form submission -->
+            <a href="#" onclick="forgotPass()" type="button">Forgot Password</a>
+
+            <div class="input-submit">
+                <button type="submit" class="submit-btn">Sign In</button>
+            </div>
+            <div class="sign-up-link">
+                <p>Don't have an account? <a href="/signup/Signup.html">Sign Up</a></p>
+            </div>
+            <br>
+            <div class="input">
+                <button id="google-login-btn" class="google btn">
+                    <i class="fa fa-google"></i> Login with Google
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <script src="firebase.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
