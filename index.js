@@ -18,7 +18,7 @@ function login() {
 }
 
 function forgotPass() {
-    alert("Please provide your email")
+    // alert("Please provide your email")
     const email = document.getElementById("email").value;
     firebase.auth().sendPasswordResetEmail(email)
         .then(() => {
