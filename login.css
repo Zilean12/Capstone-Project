@@ -23,12 +23,12 @@ body {
     flex-direction: column;
     width: 450px;
     height: 550px;
-    padding: 20px;
+    padding: 18px;
 }
 /* Styling the header in the login box */
 .login-header {
     text-align: center;
-    margin: 20px 0 35px 0;
+    margin: 25px 0 35px 0;
 }
 
 /* Styling the header text in the login box */
