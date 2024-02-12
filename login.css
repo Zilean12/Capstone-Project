@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     width: 450px;
     height: 550px;
-    padding: 30px;
+    padding: 20px;
 }
 /* Styling the header in the login box */
 .login-header {
