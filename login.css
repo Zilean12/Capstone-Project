@@ -21,8 +21,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 450px;
-    height: 550px;
+    width: 500px;
+    height: 650px;
 /*     padding: 35px;
 } */
 /* Styling the header in the login box */
