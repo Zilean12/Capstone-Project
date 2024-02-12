@@ -21,10 +21,11 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-     width: 450px;
+    width: 450px;
     height: 580px;
-    padding: 15px;
-} */
+    padding: 20px;
+}
+
 /* Styling the header in the login box */
 .login-header {
     text-align: center;
